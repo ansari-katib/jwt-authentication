@@ -4,7 +4,7 @@ import 'react-toastify/ReactToastify.css';
 // import Login from './routes/Login';
 // import Signup from './routes/Signup';
 // import Protected from './routes/Protected';
-import Pagination from './components/Pagination';
+import Pagination from './Pagination/Pagination'
 
 function App() {
 

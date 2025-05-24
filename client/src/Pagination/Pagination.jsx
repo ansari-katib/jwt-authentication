@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios';
-import CardData from '../components/CardData.json';
+import CardData from './CardData.json';
 
 const Pagination = () => {
 
@@ -24,7 +24,7 @@ const Pagination = () => {
 
 
     return (
-        <div className='flex flex-col gap-5'>
+        <div className='flex flex-col gap-5 mb-4'>
             <CardComponent data={currentCards} />
 
             <div className='flex gap-5 justify-center items-center' >
