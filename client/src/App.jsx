@@ -4,7 +4,8 @@ import 'react-toastify/ReactToastify.css';
 // import Login from './routes/Login';
 // import Signup from './routes/Signup';
 // import Protected from './routes/Protected';
-import Pagination from './Pagination/Pagination'
+// import Pagination from './Pagination/Pagination';
+import Tab from './SelectingTab/Tab';
 
 function App() {
 
@@ -17,7 +18,8 @@ function App() {
           <Route path={'/protected'} element={<Protected />} /> */}
 
           {/* // Pagination component  */}
-          <Route path={'/'} element={<Pagination />} />
+          {/* <Route path={'/'} element={<Pagination />} /> */}
+          <Route path={'/'} element={<Tab />} />
         </Routes>
       </BrowserRouter>
     </>
